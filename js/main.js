@@ -1,5 +1,5 @@
 var Vehicle = Backbone.Model.extend({
-    idAttribue: "songId",
+    idAttribute: "songId",
     urlRoot: "api/vehicles",
     defaults: {
         registrationNumber: "000000"
